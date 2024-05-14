@@ -110,7 +110,7 @@ a:hover {
 
 .full-contact-fluid {
   height: auto;
-  margin: 100%;
+  max-width: 100%;
 }
 
 .display-table {
