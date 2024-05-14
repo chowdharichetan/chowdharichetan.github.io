@@ -110,12 +110,14 @@ a:hover {
 
 .full-contact-fluid {
   height: auto;
+  max-width: 100%;
 }
 
 /* Apply styles only for screens wider than 768 pixels */
 @media (min-width: 769px) {
   .full-contact-fluid {
-    max-width:  100%; /* Remove max-width for desktop */
+    height: auto;
+    max-width: none; /* Remove max-width for desktop */
   }
 }
 .display-table {
